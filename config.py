@@ -46,7 +46,7 @@ PREMIUM_LIMIT  = int(os.getenv("PREMIUM_LIMIT", "500"))
 
 # ─── UI / LINKS ─────────────────────────────────────────────────────────────────
 JOIN_LINK     = os.getenv("JOIN_LINK", "https://t.me/Team_TD_Link")
-ADMIN_CONTACT = os.getenv("ADMIN_CONTACT", "@PocketFM9_bot")
+ADMIN_CONTACT = os.getenv("ADMIN_CONTACT", "https://t.me/Team_TD_Link")
 
 # ════════════════════════════════════════════════════════════════════════════════
 # ░ PREMIUM PLANS CONFIGURATION
@@ -76,5 +76,6 @@ P0 = {
 # ════════════════════════════════════════════════════════════════════════════════
 # ░ DEVGAGAN
 # ════════════════════════════════════════════════════════════════════════════════
+
 
 
