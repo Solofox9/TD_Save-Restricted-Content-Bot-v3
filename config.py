@@ -54,20 +54,20 @@ ADMIN_CONTACT = os.getenv("ADMIN_CONTACT", "https://t.me/Team_TD_Link")
 
 P0 = {
     "d": {
-        "s": int(os.getenv("PLAN_D_S", 1)),
-        "du": int(os.getenv("PLAN_D_DU", 1)),
-        "u": os.getenv("PLAN_D_U", "days"),
-        "l": os.getenv("PLAN_D_L", "Daily"),
+        "s": int(os.getenv("1", 1)),
+        "du": int(os.getenv("30", 7)),
+        "u": os.getenv("50", "Daily"),
+        "l": os.getenv("1", "Daily"),
     },
     "w": {
-        "s": int(os.getenv("PLAN_W_S", 3)),
-        "du": int(os.getenv("PLAN_W_DU", 1)),
-        "u": os.getenv("PLAN_W_U", "weeks"),
+        "s": int(os.getenv("200", 3)),
+        "du": int(os.getenv("100", 1)),
+        "u": os.getenv("PLAN_W_", "weeks"),
         "l": os.getenv("PLAN_W_L", "Weekly"),
     },
     "m": {
-        "s": int(os.getenv("PLAN_M_S", 5)),
-        "du": int(os.getenv("PLAN_M_DU", 1)),
+        "s": int(os.getenv("500", 5)),
+        "du": int(os.getenv("500", 1)),
         "u": os.getenv("PLAN_M_U", "month"),
         "l": os.getenv("PLAN_M_L", "Monthly"),
     },
@@ -76,6 +76,7 @@ P0 = {
 # ════════════════════════════════════════════════════════════════════════════════
 # ░ DEVGAGAN
 # ════════════════════════════════════════════════════════════════════════════════
+
 
 
 
