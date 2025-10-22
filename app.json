@@ -1,14 +1,14 @@
 {
   "name": "Save Restricted Content Bot v3",
   "description": "Save Restricted Content Bot by Team SPY",
-  "logo": "https://lh3.googleusercontent.com/-HPcn7AqepNg/AAAAAAAAAAI/AAAAAAAAAAA/ALKGfknb1BkQiq-8_KUVOYcNAJ4swKivDQ/photo.jpg",
+  "logo": "",
   "keywords": ["python3", "telegram", "MusicBot", "telegram-bot", "pyrogram"],
   "repository": "https://github.com/devgaganin/save_restricted-content-telegram-bot-repo",
-  "success_url": "https://devgagan.in",
+  "success_url": "https://testingsubgettd.duckdns.org",
   "env": {
     "API_ID": {
       "description": "Get this value from https://my.telegram.org",
-      "value": "",
+      "value": "28961091",
       "required": true
     },
     "API_HASH": {
@@ -98,4 +98,5 @@
   ],
   "stack": "container"
 }
+
 
